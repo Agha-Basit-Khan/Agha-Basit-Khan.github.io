@@ -1,0 +1,151 @@
+body 
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBN287AieJR_3w3uDQH0P2fXv1o1sSbvRCGg&usqp=CAU");
+    height: 100%; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container-skills 
+  {
+    margin: 40px auto 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .bar 
+  {
+    width: 500px;
+    position: relative;
+    background-color: #d8d8d8;
+    height: 20px;
+    margin: 0 0 20px 0;
+  }
+  .bar-fill 
+  {
+    position: absolute;
+    height: 20px;
+  }
+  .bar-title 
+  {
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    position: relative;
+    font-size: 1em;
+    text-align: left;
+    margin: 0 0 5px 0;
+  }
+  .percent 
+  {
+    position: absolute;
+    right: 0;
+  }
+  .bar-fill-html 
+  {
+    width: 90%;
+    background-color: #e44d26;
+    animation: bar-fill-html 2s ease-out;
+  }
+  @keyframes bar-fill-html 
+  {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 90%;
+    }
+  }
+  .bar-fill-css 
+  {
+    width: 80%;
+    background-color: burlywood;
+    animation: bar-fill-css 2s ease-out;
+  }
+  @keyframes bar-fill-css
+  {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+  }
+  .bar-fill-bootstrap 
+  {
+    width: 80%;
+    background-color: violet;
+    animation: bar-fill-bootstrap 2s ease-out;
+  }
+  @keyframes bar-fill-bootstrap
+  {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+  }
+  .bar-fill-javascript 
+  {
+    width: 70%;
+    background-color: #f8dc3d;
+    animation: bar-fill-javascript 2s ease-out;
+  }
+  @keyframes bar-fill-javascript
+  {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 70%;
+    }
+  }
+  .bar-fill-jquery
+  {
+    width: 70%;
+    background-color: #131b28;
+    animation: bar-fill-jquery 2s ease-out;
+ }
+  @keyframes bar-fill-jquery
+  {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 70%;
+    }
+  }
+  .bar-fill-csharp
+  {
+    width: 70%;
+    background-color: #429f46;
+    animation: bar-fill-csharp 2s ease-out;
+}
+  @keyframes bar-fill-csharp 
+  {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 70%;
+    }
+  }
+  .bar-fill-cplus
+  {
+    width: 90%;
+    background-color: #0a73dc;
+    animation: bar-fill-cplus 2s ease-out;
+  }
+  @keyframes bar-fill-cplus 
+  {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 90%;
+    }
+  }
+
+  

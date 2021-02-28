@@ -1,0 +1,47 @@
+body 
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBN287AieJR_3w3uDQH0P2fXv1o1sSbvRCGg&usqp=CAU");
+    height: 100%; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner 
+{
+    height: 200px;
+    width: 60%;
+    align-content: left;
+    justify-content: left;
+    margin: 5% auto;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.banner h1 
+{
+    color: white;
+    font-size: 40px;
+    font-weight:bold;
+
+}
+.banner p 
+{
+    padding-top:20px;
+    font-size: 30px;
+    color: rgba(255,255,255,0.60);
+    font-weight:200;
+    word-spacing: 1px;
+}
+.banner a 
+{
+    text-decoration: none;
+    font-size:18px;
+    color: rgba(255,255,255,1);
+    margin: 90px auto;
+    display: block;
+    font-weight: bold;
+    border: 2px solid rgba(255,255,255,1);
+    width: 27%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 7px;
+}

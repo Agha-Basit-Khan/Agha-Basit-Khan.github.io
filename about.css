@@ -1,0 +1,31 @@
+  body {
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBN287AieJR_3w3uDQH0P2fXv1o1sSbvRCGg&usqp=CAU");
+      height: 100%; 
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .container 
+    {
+        margin: 20px;
+        padding: 20px ;
+        max-width: 1240px;
+    }
+    img 
+    {
+        display: inline-block;
+        width: 30%;
+        height: 425px;
+        margin: 20px 30px 0 0;
+        border-radius: 8px;
+    }
+    .text 
+    {
+        display: inline-block;
+        width: 56%;
+        font-size: 30px;
+        color: rgba(255,255,255,0.60);
+        font-weight:200;
+    }
+  
